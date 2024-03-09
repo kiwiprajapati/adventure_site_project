@@ -1,0 +1,187 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+    .navbar-brand img{
+        width: 60% !important;
+    }
+
+    .banner-text{
+        padding-bottom:0px !important; 
+        
+    }
+
+    
+    .text{
+        font-size:8px !important;
+        letter-spacing: 2px;
+        line-height:0.1 !important;
+        letter-spacing:0px !important;
+    }
+
+    .btn{
+        padding: 3px 3px !important;
+        border-radius: none !important;
+        font-size:8px;
+    }
+
+    .header-text{
+        font-family:Open Sans;
+        font-size:30px;
+        letter-spacing:2px;
+        
+    }
+
+    .carousel-indicators{
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    #carousel_point{
+        height:5px !important;
+        width:5px !important;
+        border-radius: 50% !important;
+        background-color: rgb(255, 255, 255) !important;  
+        margin-bottom:0% !important;
+    }
+    .about h2{
+        font-size:1.5rem !important ;
+    }
+
+    .our-service h1{
+        font-size:1.5rem !important ;  
+    }
+
+    .join-company h1 {
+        font-size:1.5rem !important ;  
+    }
+
+    .join-company button {
+        padding: 8px 10px !important;
+        font-size: 10px;
+    }
+
+    .join-company i {
+        font-size: 40px !important;
+    }
+
+    .join-company p{
+        font-size: 15px;
+    }
+
+    .wwo-icon-box{
+        padding: 3px 9px !important;
+        
+    }
+
+    .wwo-box h3 {
+        font-size: 18px !important;
+    }
+    .wwo-box p {
+        font-size: 13px !important;
+    }
+    /* #testimonial .carousel-content {
+        padding:0px 0px 20px 100px !important;
+    } */
+
+    #testimonial h3{
+        font-size: 18px;
+    }
+
+    #testimonial p{
+        font-size: 13px;
+        margin-bottom: 3rem !important;
+    }
+
+    #toggle-btn{
+        padding: 11px 3px !important;
+        font-size: 12px;
+    }
+
+    
+    .box i{
+        font-size: 30px !important;
+    }
+
+    .box h3{
+        font-size:20px;
+    }
+    .box button{
+        padding: 8px 20px;
+    }
+
+    .box{
+        padding: 25px 10px !important;
+    }
+
+    /* .work-header{
+        font-size: 1.5rem !important;
+    } */
+
+    .gallery h1{
+        font-size: 1.5rem !important;
+    }
+
+    .choosing_option button{
+        font-size: 13px !important;
+    }
+    .gallery_product h4{
+        font-size: 20px !important;
+    }
+
+    .gallery_product p{
+        font-size: 13px !important;
+    }
+
+    .email input{
+        padding:8px 8px !important;
+        font-size: 12px;
+    }
+
+    .subscribe{
+        font-size: 13px !important;
+    }
+    .copyright{
+        font-size: 13px !important;
+    }
+
+    .footer-social-icon i{
+        font-size: 18px !important;
+    }
+
+    .pointer-box i{
+        font-size: 30px !important;
+    }
+    .pointer-box h2{
+        font-size: 1rem !important;
+    }
+
+    .pointer-box{
+        padding:10px 0 !important;
+    }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+   
+}
+
+/* @media(max-width:1021.98px){
+
+} */
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .banner-text{
+        padding-bottom:80px;  
+    }
+
+    
+}
+
+/* // Extra large devices (large desktops) */
+/* // No media query since the extra-large breakpoint has no upper bound on its width */

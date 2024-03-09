@@ -1,0 +1,773 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&family=Roboto+Condensed:wght@300&display=swap');
+.m-auto{
+    margin: auto;
+}
+
+.f-left{
+    float: left;
+}
+.menu li a{
+    color: black !important;
+    font-size: 14px;
+    font-family: Myriad Pro;
+    margin-left: 15px;
+}
+
+.menu li a:hover{
+    color: #ec4848 !important;
+}
+
+.menu li a:focus{
+    color: #ec4848 !important;
+}
+
+.icon{
+    margin-left: 15px;
+}
+
+/* navigation bar end */
+.header-text{
+    font-family:Open Sans;
+    font-size: 90px;
+    letter-spacing: 6px;
+}
+
+.text{
+    letter-spacing:5px;
+    font-size: 12px !important;
+    line-height: 1.9 !important;
+}
+
+.banner-text{
+    padding-bottom: 150px; 
+}
+
+/* banner-end */
+
+.about{
+    text-align: center; 
+    font-family:Roboto Condensed;
+}
+
+.about-text{
+    padding-top: 15px;
+}
+
+
+/* about finished */
+
+.card-header{
+    padding:0 !important;
+}
+
+#toggle-btn{
+    padding:0.675rem 0.95rem;
+    border-radius:0;
+    text-decoration: none !important;
+    font-family:Roboto Condensed;
+    font-size: 15px;
+}
+#toggle-btn:hover{
+    background-color: #ec4848 !important;
+}
+#toggle-btn:focus{
+    background-color: #ec4848 !important;
+    
+}
+#toggle-card{
+    border-radius:0;
+}
+
+#headingOne{
+    margin-bottom: 15px;
+    padding: 0;
+}
+#headingTwo{
+    margin-bottom: 15px; 
+}
+#headingThree{
+    margin-bottom: 15px; 
+}
+.toggle-section{
+    padding-bottom: -2rem !important;
+}
+
+.card-body{
+    font-family:Roboto Condensed !important;  
+    font-size: 15px;
+    padding: 0.85rem !important;
+}
+
+/* toggle end */
+.progress-bar{
+    background-color: #ec4848 !important;
+    text-align: left !important;
+    padding-left: 12px;
+}
+
+.progress{
+    border-radius: 0 !important;
+    height: 2rem !important;
+    font-family:Roboto Condensed;
+}
+
+#pro-2{
+    margin-top: 15px;
+}
+
+/* progress bar finished*/
+
+.our-service{
+    border-top: 1px s grey;
+}
+
+.our-service h1{
+    font-family:Roboto Condensed;
+    font-size: 2rem;
+    font-weight: bolder !important;
+    text-align: center;
+}
+
+/* our services finished */
+
+.our-srvc-flexbox{
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+}
+
+.box{
+    padding: 30px 15px;
+    background-color: white;
+    text-align: center;
+    border-radius:8px;
+    border: 1px solid rgb(197, 197, 197) ;
+}
+.box:hover{
+    background-color:#3f444a;
+    color: white;
+    transition: ease 0.5s;
+    cursor: pointer;
+}
+.box i{
+    font-size:45px;
+    padding-top:45px;
+}
+
+.box h3{
+    font-size:25px;
+    padding-top:35px;
+    font-family:Roboto Condensed;
+}
+
+.box p{
+    font-size:15px;
+    padding-top:12px;
+    font-family:Roboto Condensed;
+}
+.box button{
+    padding: 12px 30px;
+    background-color: #ec4848;
+    border: none;
+    text-transform: uppercase;
+    font-family:Roboto Condensed;
+    font-size: 12px;
+    color: white;
+    margin-top: 20px;
+}
+
+.box button:hover{
+    background-color: white;
+    color: #ec4848;
+    font-weight: bold;
+    transition: ease 0.5s;
+    
+}
+
+/* our services flexbox finished */
+
+.join-company{
+    padding: 40px 0;
+    text-align: center;
+    font-family: Roboto Condensed;
+    color:white;
+}
+.join-company i{
+    font-size: 50px;
+    color: #ec4848;
+    padding-top: 30px;
+}
+.join-company h1{
+    font-size: 2rem;
+    padding-top:20px;
+}
+
+.join-company p{
+    font-size: 18px;
+}
+
+.join-company button{
+    padding: 12px 35px;
+    background-color: #ec4848;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+
+}
+
+/* .join-company */
+.wwo-box{
+    padding-left: 100px;
+}
+.wwo-box h3{
+    font-size:20px;
+    font-family: Roboto Condensed;
+    color: black;
+    font-weight: bolder !important;
+}
+
+.wwo-box p{
+    font-size:15px;
+    font-family: Roboto Condensed;
+    color: black;
+}
+.wwo-icon-box{
+    float: left;
+    padding:15px 20px;
+    background-color: #ec4848;
+    font-size:35px;
+    color: white;
+}
+.download-icon{
+    font-size: 30px;
+}
+
+
+/* what we offer finished */
+
+/* .customer-1{
+    margin-left:350px;
+}
+
+.img-customer{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #ec4848;
+   
+}
+
+.customer-detail {
+    color: black;
+    font-family: Roboto Condensed;
+}
+
+.customer-detail h3{
+    font-size: 20px;
+}
+
+.customer-detail h6{
+    color: #ec4848;
+    font-weight: bolder !important;
+    font-size:12px;
+}
+
+#customer-carousel li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ec4848;
+    margin-top: 50px;
+} */
+
+
+
+/*-- testimonial Section CSS --*/
+
+#testimonial {
+    padding: px 0px 4px;
+    color: #000000;
+}
+#testimonial h2 {
+    font-style: italic;
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+}
+#testimonial .client-img {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border: 3px solid #fff;
+    margin: 0px auto;
+    border-radius: 100%;
+    position: absolute;
+    left: 0px;
+}
+#testimonial .carousel-content {
+    padding:0px 0px 20px 100px;
+    width: 70%; 
+    margin: 0 auto;
+    position: relative;
+}
+#testimonial h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    font-family: Roboto Condensed !important;
+    text-transform: uppercase;
+}
+
+#testimonial h6 {
+    font-size: 15px;
+    color: #ec4848;
+    font-family: Roboto Condensed !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#testimonial p {
+    font-size: 15px;
+    font-family: Roboto Condensed !important;
+    margin-bottom: 3rem !important;
+}
+#testimonial .client-img img {
+    width: 100%;
+}
+
+#testimonial .carousel-control-prev,
+#testimonial .carousel-control-next {
+    font-size: 36px;
+}
+
+@media (max-width: 576px) {
+#testimonial .carousel-content {
+    padding: 20px 0px 20px 0px;
+    width: 100%;
+}
+#testimonial .client-img {
+    margin: 20px auto;
+    position: static;
+}
+#testimonial h3, #testimonial p, #testimonial h6 {
+    text-align: center;
+}
+}
+/* #customer-carousel{
+    margin-top: 100px !important;
+} */
+#customer-carousel li{
+    width: 10px;
+    height: 10px;
+    background-color: #ec4848;
+    border-radius: 50%;
+}
+/*-- End Testimonial Section CSS --*/
+
+.pointer-box{
+    padding:15px 15px;
+    background-color:#551d1ba0;
+    text-align: center;
+    color: white;
+    font-family: Roboto Condensed !important;
+}
+
+.pointer-box i{
+    font-size: 40px;
+}
+.pointer-box p{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 12px;
+    padding-top: 10px;
+}
+.pointer-box h2{
+    font-weight: bold !important;
+    padding-top:10px;
+}
+
+
+
+
+/* Pointer Finished Here */
+
+.img_title {
+    position: relative;
+
+    max-width: 300px;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute; 
+    bottom: 0; 
+    background-color: #ec4848;
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size:15px;
+    padding: 20px;
+    text-align: center;
+    font-family: Roboto Condensed !important;
+  }
+  
+  .overlay i{
+    margin:5px;
+    cursor: pointer;
+  }
+  .img_title:hover .overlay {
+    opacity: 1;
+  }
+  .opacity_section{
+    background-image: url(images/pointer-bg.jpg);
+    position: relative;
+  }
+  .opacity_section::before{
+    content: "";
+    background-color: #000000c3;
+
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  /* .opacity_section{
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 50%;
+  } */
+  /* Meet Our Team Finished */
+
+  
+  .gallery-title
+  {
+      font-size: 36px;
+      color: #FFA500;
+      text-align: center;
+      font-weight: 500;
+      /* margin-bottom: 70px; */
+  }
+  /* .gallery-title:after {
+      position: absolute;
+      width: 22.5%;
+      left: 38.5%;
+      height: 45px;
+      border-bottom: 1px solid #5e5e5e;
+  } */
+
+  .filter-button
+  {
+      font-size: 18px;
+      /* border: 1px solid #FFA500;
+      border-radius: 5px;
+      text-align: center;
+      color: #000000;*/
+      font-family: Roboto Condensed !important;
+      margin-bottom: 30px; 
+      font-weight: bold !important;
+      
+  }
+  .filter-button:focus
+  {
+    color: #ec4848 !important;
+  }
+  /* .btn-default:active .filter-button:active
+  {
+      color: #ec4848 !important;
+      color: white;
+  } */
+   
+  /* .port-image
+  {
+      width: 100%;
+  } */
+
+  .img-overlay{
+    position: relative;
+   
+  }
+
+  .gallery_product h4{
+    font-family: Roboto Condensed !important;
+    color: #3f444a;
+    padding-top: 20px;
+    text-align: center;
+  }
+  .gallery_product p{
+    font-family: Roboto Condensed !important;
+    color: #3f444a;
+    text-align: center;
+  }
+  
+  .gallery_product img{
+      box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+      display: block;
+      width: 100%;
+      height: auto;
+  }
+
+  .work-header{
+    font-family: Roboto Condensed !important;
+    font-size: 2rem;
+    color: #000000 !important;
+    font-weight: bold;
+  }
+
+.img-responsive{
+    width: 100%;
+}
+
+.overlay-img{
+    position: absolute;
+    bottom: 0px;
+    /* left: 0; */
+    /* right: 0; */
+    top:0;
+    background-color: #ec4848;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: .3s ease;
+    transition:0.2s ease;
+    opacity: 0;
+}
+
+.overlay-img i{
+    position: absolute;
+    top:40%;
+    left:45%;
+    color: white;
+    font-size:50px;
+}
+
+/* .gallery_product:hover .overlay-img{
+    
+} */
+
+.img-overlay:hover .overlay-img{
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+}
+/* Portfolio Gallery finished */
+
+
+/* body {
+	display:flex;
+	flex-flow:column;
+	justify-content:center;
+	background:#eaeaea;
+	height:100vh;
+} */
+.autoplay-carousel {
+	display:flex;
+	flex-flow:column;
+	align-items:center;
+	div.container {
+		transition:all .3s ease;
+		h1 { margin:15px 0 0 0; }
+		h3 { margin:0 0 25px 0; }
+	}
+	@media (max-width:992px) { padding:0 20px 0 20px; }
+}
+.autoplay-carousel.slide-option {
+	margin:0 0 50px 0;
+	.no-marg { margin:0 0 0 0; }
+}
+
+div.highway-slider {
+	display:flex;
+	justify-content:center;
+	width:100%;
+	height:100px;
+	div.highway-barrier {
+		overflow:hidden;
+		position:relative;
+	}
+	ul.highway-lane {
+		display:flex;
+		height:100%;
+		li.highway-car {
+			flex:1;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			background:#fff;
+			color:#343434;
+		}
+	}
+}
+
+@keyframes translatestf {
+	0% { transform:translateX(100%);  }
+	100% { transform:translateX(-500%);  }
+}
+#stffull div.highway-barrier {
+	ul.highway-lane {
+		width:500%;
+		li.highway-car {
+			animation:translatestf 30s linear infinite;
+			h4 { font-size:28px; }
+		}
+	}
+}
+
+@keyframes translateinfinite {
+	100% { transform:translateX(calc(-180px * 12));  }
+}
+#infinite div.highway-barrier {
+	background:#fff;
+	box-shadow:0 3px 10px -3px rgba(0,0,0,0.3);
+	&::before,
+	&::after {
+		content: " ";
+		position:absolute;
+		z-index:9;
+		width:180px;
+		height:100%;	
+	}
+	&::before {
+		top:0;left:0;
+		background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+	}
+	&::after {
+		top:0;right:0;
+		background: linear-gradient(to left, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+	}
+	ul.highway-lane {
+		width:calc(180px * 24);
+		li.highway-car {
+			width:180px;
+			animation:translateinfinite 25s linear infinite;
+			span.fab {
+				font-size:65px;
+			}
+		}
+	}
+}
+
+#red { background: #cb5454; }
+#orange { background: #cb8054; }
+#yellow { background: #cbba54; }
+#green { background: #69b46e; }
+#blue { background: #6091b0; }
+
+
+/* companies finished */
+
+
+.email{
+    text-align: right;
+}
+
+.email input{
+    padding:12px 12px;
+    border-radius: 5px;
+    width:50%;
+}
+
+/* .email i{
+    color: white;
+    background-color: #cb5454;
+    padding: 12px 12px;
+} */
+
+/* subscribe finished */
+
+.footer-1 p{
+    color: white;
+    font-size: 12px;
+    font-family: Roboto Condensed !important;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.social-icons i{
+    padding: 10px 10px;
+    background-color: white;
+    margin-left:3px;
+}
+
+.text-1{
+    font-size: 15px;
+    font-family: Roboto Condensed !important;
+}
+
+.text-1 i{
+
+    color: #ec4848;
+    margin-right:10px;
+}
+
+.footer-2 ul li{
+    list-style:none;;
+}
+.footer-2 h5{
+    font-family: Roboto Condensed !important;
+    font-weight: bold;
+}
+.footer-3 h5{
+    font-family: Roboto Condensed !important;
+    font-weight: bold;
+}
+.tags-list h6{
+    float: left;
+    margin-left:5px;
+    padding: 8px 15px;
+    background-color: #ec4848;
+    font-size: 12px;
+    font-family: Roboto Condensed !important;
+}
+
+.footer-4 h5{
+    font-family: Roboto Condensed !important;
+    font-weight: bold;
+}
+
+.posts-flexbox{
+    display: flex;
+    justify-content:center;
+    
+}
+
+.post{
+    width: 100%;
+    height: auto;
+    margin:5px;
+}
+
+.footer-end-line{
+    height:4px;
+    width: 100%;
+    background-color: #534a4a;
+}
+
+/* footer finished */
+
+.copyright span{
+    color: #ec4848;
+}
+
+.copyright{
+    font-family: Roboto Condensed !important;
+}
+
+.footer-social-icon i{
+    font-size:20px;
+    color: white;
+    margin-left: 15px;
+}
